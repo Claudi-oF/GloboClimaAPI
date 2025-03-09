@@ -1,0 +1,23 @@
+```gitignore
+# Binários e compilação
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Configurações locais
+appsettings.Development.json
+secrets.json
+
+# Arquivos do usuário
+.vscode/
+.idea/
+*.suo
+*.user
+*.cache
+
+# Dependências do NuGet
+*.nupkg
+packages/
